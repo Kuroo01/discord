@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "cpu-stat": "^2.0.1",
+    "discord-buttons": "^4.0.0",
+    "discord-reply": "^0.1.2",
+    "discord-toolbox": "^1.0.7",
+    "discord.js": "^12.5.3",
+    "discord.js-pagination": "^1.0.3",
+    "moment": "^2.29.1",
+    "ms": "^3.0.0-canary.1",
+    "os": "^0.1.2",
+    "quick.db": "^7.1.3",
+    "twemoji-parser": "^13.1.0",
+    "weather-js": "^2.0.0"
+  },
+
+    "name": "npm-scripts-js",
+    "version": "1.1.2",
+    "description": "Portable shell command utility to use npm as a build tool",
+    "author": "Max Jung <max@gourmetjs.com>",
+    "license": "MIT",
+    "repository": "https://github.com/gourmetjs/npm-scripts-js",
+    "keywords": [
+      "shell",
+      "npm scripts",
+      "command",
+      "portable",
+      "mac",
+      "windows"
+    ],
+    "engines": {
+      "node": ">=0.12.0"
+    },
+    "bin": "bin/npm-scripts-js.js",
+    "main": "lib/context",
+    "dependencies": {
+      "object-assign": "^4.1.0"
+    }
+  }
